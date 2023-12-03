@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase:400&display=swap');
+
+.page-header {
+  @include large {
+    padding: 1rem 6rem;
+  }
+  @include medium {
+    padding: 1rem 4rem;
+  }
+  @include small {
+    padding: 1rem 1rem;
+  }
+}
+
+.project-name {
+  color: #fff;
+  font-family: "Delius Unicase",Helvetica,sans-serif;
+}
+
+.project-home:hover {
+  text-decoration: none;
+}
