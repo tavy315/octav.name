@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "Mousepad profesional SteelSeries QcK mass"
-date:   2013-03-27 10:53:00 +0200
+author: octav
 category: Tech
+date: 2013-03-27 10:53:00 +0200
+image: /wp-content/uploads/2013/03/steelseries.jpg
+layout: post
+title: "Mousepad profesional SteelSeries QcK mass"
 ---
 
 <img class="size-full wp-image-4905" style="margin-left: 10px" style="float: right" src="/wp-content/uploads/2013/03/mousepad.jpg" alt="mousepad" width="250" height="200" />De câteva zile, "şoricelul" meu Logitech a început să nu mai "fugă" la fel de bine pe birou, aşa că am căutat pe siteurile de specialitate un mousepad textil. Am dat de <a title="Mousepad profesional SteelSeries QcK mass" href="https://www.emag.ro/mousepad-profesional-steelseries-qck-mpstqck/pd/EFSVDBBBM/?psid=9386110&utm_source=profitshare&utm_medium=direct_link" target="_blank" rel="noopener noreferrer">Mousepad profesional SteelSeries QcK mass</a>, un mousepad profesional, textil, compatibil cu toate tipurile de mouse şi având dimensiune: 320mm x 285mm x 6mm. Ce îmi place cel mai mult la el este că nu alunecă pe birou (baza cauciucată îşi face bine datoria).<!--more-->

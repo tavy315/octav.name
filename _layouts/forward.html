@@ -7,16 +7,16 @@
     {% assign targetname = page.target %}
 
     {% if page.time %}
-    {% assign time = page.time %}
+        {% assign time = page.time %}
     {% endif %}
 
     {% if page.targetname %}
-    {% assign targetname = page.targetname %}
+        {% assign targetname = page.targetname %}
     {% endif %}
 
     {% capture title %}Redirecting to {{ targetname }}{% endcapture %}
     {% if page.targettitle %}
-    {% assign title = page.targettitle %}
+        {% assign title = page.targettitle %}
     {% endif %}
     <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}" />
     <link rel="canonical" href="{{ page.target }}" />
@@ -32,11 +32,7 @@
 <body>
 <h1>{{ title }}</h1>
 
-{% if page.message %}
-<p>{{ page.message }}</p>
-{% else %}
-<p>This document has moved!</p>
-{% endif %}
+<p>{% if page.message %}{{ page.message }}{% else %}This document has moved!{% endif %}</p>
 
 <p>Redirecting to <a href="{{ page.target }}">{{ targetname }}</a> in {{ time }} seconds.</p>
 

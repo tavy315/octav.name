@@ -2,10 +2,29 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<small>Posted on {{ page.date | date: "%-d %B %Y" }}</small>
-{%- if page.categories -%}
-<br /><small>Categories: {{ page.categories | join: ", " }}</small>
-{%- endif -%}
+<div class="post-header">
+    <div class="post-header-info">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        </div>
+    </div>
+</div>
 
-{{content}}
+<div class="content-box">
+    <article class="post">
+        <div class="post-content">{{ content }}</div>
+
+        <footer class="post-footer">
+            {% include post-socials.html %}
+
+            {% include post-tags.html %}
+        </footer>
+
+        {% include post-author.html %}
+
+        {% include post-navigation.html %}
+
+        {% include post-comments.html %}
+    </article> <!-- /.post -->
+</div> <!-- /.content-box -->

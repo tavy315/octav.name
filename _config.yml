@@ -19,15 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Octav.Name
-#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Random stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://site.octav.name" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tavy315
-github_username:  tavy315
-github:
-    is_project_page: true
 show_excerpts: true
 excerpt_separator: <!--more-->
 defaults:
@@ -38,13 +33,28 @@ defaults:
         values:
             permalink: /:year/:month/:title
 
+authors:
+    octav:
+        about: Technical Team Lead / Senior PHP Developer / Problem Solver
+        github: https://github.com/tavy315
+        image: https://avatars.githubusercontent.com/u/6184412?v=4
+        linkedin: https://www.linkedin.com/in/octavianmatei/
+        name: Octav
+        twitter: https://twitter.com/tavy315
+
+google-analytics: UA-917289-1
+
+paginate: 6
+paginate_path: "/page/:num"
+
 # Build settings
 #theme: minima
 #remote_theme: pages-themes/cayman
-remote_theme: pages-themes/cayman@v0.2.0
+#remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,31 @@
+{% assign author = site.authors[page.author] %}
+{% if author %}
+<div class="post-author">
+    <div class="post-author-image">
+        <a style="background-image: url({{author.image}})">
+            <span class="screen-reader-text">{{author.name}} Picture</span>
+        </a>
+    </div>
+    <div class="post-author-info">
+        <h4>{{ author.name }}</h4>
+        <p class="post-author-bio">{{ author.about }}</p>
+        <div class="post-author-meta">
+            {% if author.twitter %}
+                <a href="{{ author.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            {% endif %}
+
+            {% if author.github %}
+                <a href="{{ author.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            {% endif %}
+
+            {% if author.linkedin %}
+                <a href="{{ author.linkedin }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            {% endif %}
+
+            {% if author.email %}
+                <a href="mailto:{{ author.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}

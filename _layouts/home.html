@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
     {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+        <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
 
     {{ content }}
@@ -23,7 +23,7 @@ layout: default
                 <a class="post-link" href="{{ post.url | relative_url }}"><h3>{{ post.title | escape }}</h3></a>
                 <small class="post-meta">{{ post.date | date: date_format }}</small>
                 {%- if site.show_excerpts -%}
-                {{ post.excerpt }}
+                    {{ post.excerpt }}
                 {%- endif -%}
             </li>
             {%- endfor -%}

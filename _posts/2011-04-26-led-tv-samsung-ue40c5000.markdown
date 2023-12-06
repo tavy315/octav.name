@@ -1,15 +1,17 @@
 ---
-layout: post
-title:  "LED TV Samsung UE40C5000"
-date:   2011-04-26 11:36:00 +0200
+author: octav
 category: Tech
+date: 2011-04-26 11:36:00 +0200
+image: /wp-content/uploads/2011/04/UE40C5000.jpg
+layout: post
+title: "LED TV Samsung UE40C5000"
 ---
 
-<p style="text-align: center">
-    <img src="/wp-content/uploads/2011/04/UE40C5000.jpg" alt="" title="UE40C5000" width="500" height="350" class="wp-image-4791" />
-</p><!--more-->
+<img src="/wp-content/uploads/2011/04/UE40C5000.jpg" alt="" title="UE40C5000" width="500" height="350" style="float: right" />
+<!--more-->
 
 ### Caracteristici generale
+
 - Anynet+ (HDMI-CEC) disponibil
 - Căutare automată de canale disponibilă
 - Oprire automată disponibilă
@@ -31,6 +33,7 @@ category: Tech
 - Teletext (TTXT) Mega TTX
 
 ### Design
+
 - Design subţire
 - Rose Black
 - Light Effect (Deco) disponibil
@@ -38,11 +41,13 @@ category: Tech
 - Model cu rotire (stânga/dreapta) inclus
 
 ### Greutate
+
 - Greutatea pachetului 19,3 kg
 - Greutatea setului cu suport 15,7 kg
 - Greutate set fără suport 12,1 kg
 
 ### Video
+
 - Dimensiune ecran 40" (101cm)
 - Rezoluţie 1920 x 1080
 - Motor HyperReal
@@ -50,10 +55,12 @@ category: Tech
 - Clear Motion Rate 50 x 2
 
 ### Sistem
+
 - Recepţie DTV DVB-T/C
 - Tuner DTV integrat disponibil
 
 ### Eco
+
 - Etichetă ecologică (Planet First)
 - Eco-senzor disponibil
 - Sursă de alimentare c.a. 220 – 240 V/50 – 60 Hz
@@ -63,6 +70,7 @@ category: Tech
 - Raport maxim luminanţă 65%
 
 ### Accesorii
+
 - Baterii incluse
 - Manual de instrucţiuni disponibil
 - Cablu de alimentare disponibil
@@ -73,6 +81,7 @@ category: Tech
 - Suport Floor Stand inclus
 
 ### Audio
+
 - Dolby Digital Plus, Dolby Pulse
 - DTS 2.0 + Ieşire digitală
 - Ieşire sunet (RMS) de 10 W x 2
@@ -80,6 +89,7 @@ category: Tech
 - Audio Woofer disponibil
 
 ### Input &amp; Output
+
 - 1 intrare component (Y/Pb/Pr) (Utilizare obişnuită audio pentru component)
 - 1 intrare compozit (AV)
 - Ieşire audio digitală (fibră optică)
@@ -95,6 +105,7 @@ category: Tech
 - Conector Scart
 
 ### Dimension
+
 - Dimensiuni pachet 120 x 74,3 x 12 cm
 - Dimensiuni set cu suport 97,2 x 65,6 x 25,5 cm
 - Dimensiuni set fără suport 97,2 x 59,6 x 2,99 cm

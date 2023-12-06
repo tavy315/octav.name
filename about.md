@@ -1,18 +1,17 @@
 ---
-layout: default
-title: Despre
+layout: page
 permalink: /despre
+title: Despre
 ---
 
-# Despre
-
 ### My current setup
-- Apple 2023 MacBook Pro Laptop M2 Max chip 
-  - 12‑core CPU and 38‑core GPU
-  - 16.2-inch Liquid Retina XDR Display
-  - 64GB Unified Memory
-  - 1TB SSD Storage
-  - Space Gray
+
+- Apple 2023 MacBook Pro Laptop M2 Max chip
+    - 12‑core CPU and 38‑core GPU
+    - 16.2-inch Liquid Retina XDR Display
+    - 64GB Unified Memory
+    - 1TB SSD Storage
+    - Space Gray
 - [Intel NUC8i7HVK NUC Kit](https://www.amazon.de/gp/product/B07DG7L52T/)
 - 2 x [Samsung MZ-V7S1T0BW SSD 970 EVO Plus 1 TB](https://www.amazon.de/gp/product/B07MBQPQ62/)
 - Samsung T1 Portable 500GB USB 3.0 External SSD (MU-PS500B/AM)
@@ -37,12 +36,14 @@ permalink: /despre
 - Ergohuman v1 Plus chair, mesh 3D Black
 
 ### Networking
+
 - ~~Belkin Wireless G Plus Router~~
 - [~~Router Wireless Dual-Band N600 Linksys EA2700~~](https://l.profitshare.ro/l/9972886)
 - [Router Wireless ASUS RT-AC87U Dual-band Wireless AC2400 Gigabit](https://l.profitshare.ro/l/9973161)
 - [Range Extender wireless AC750 TP-Link RE200, Moduri RE/AP, Dual Band](https://l.profitshare.ro/l/5324444)
 
 ### Phones
+
 - ~~Alcatel 311~~
 - ~~Sagem MyX-7~~
 - ~~Samsung D900i~~
@@ -52,6 +53,7 @@ permalink: /despre
 - [Samsung Super fast charger, USB Type-C, 45W, Black](https://l.profitshare.ro/l/12591067)
 
 ### TVs
+
 - ~~CRT TV NEI R1484-TX~~
 - [~~LCD TV Samsung 32R81B~~](https://www.octav.name/2009/04/lcd-tv-samsung-32r81b.html)
 - [LED TV Samsung UE40C5000](https://www.octav.name/2011/04/led-tv-samsung-ue40c5000.html)
@@ -59,6 +61,7 @@ permalink: /despre
 - [~~Home Cinema Philips HTS3357~~](https://www.emag.ro/sistem-home-cinema-philips-hts3357-hts3357-12/pd/EJTQMBBBM/)
 
 ### My (old) Computer
+
 - Intel Pentium 4 3.0Ghz HT (2MB L2 Cache) (800 FSB)
 - Gigabyte GA-8I915P Duo v2 (3 PCI, 2 PCI-E x1, 1 PCI-E x16, 2 DDR DIMM, 2 DDR2 DIMM, Audio, Gigabit LAN)
 - ~~2 x 512MB DDR2, PC4200 533MHz, GeiL, Dual Channel~~
