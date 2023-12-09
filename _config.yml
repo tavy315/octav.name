@@ -44,8 +44,10 @@ authors:
 
 google-analytics: UA-917289-1
 
-paginate: 6
+paginate: 9
 paginate_path: "/page/:num"
+
+placeholder: /assets/images/placeholder.png
 
 # Build settings
 #theme: minima

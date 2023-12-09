@@ -25,7 +25,7 @@
 */
 
 .highlight {
-  background: #f7f7f7;
+  background: #1557990f;
 }
 
 .highlighter-rouge .highlight {
@@ -440,7 +440,7 @@ blockquote p {
 
 pre {
   overflow: auto;
-  padding: 25px;
+  padding: 20px;
   font-size: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -499,7 +499,7 @@ table th {
 }
 
 table tr {
-  background-color: #d4e3e5;
+  /*background-color: #d4e3e5;*/
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
@@ -511,10 +511,10 @@ table tr:nth-child(even) {
 
 table td {
   font-size: 14px;
-  border-width: 1px;
-  padding: 8px;
-  border-style: solid;
-  border-color: #729ea5;
+    padding: 8px;
+  /*border-width: 1px;*/
+  /*border-style: solid;*/
+  /*border-color: #729ea5;*/
 }
 
 table tr:hover {
@@ -1105,7 +1105,7 @@ table tr:hover {
 .posts .post-thumbnail:before {
   content: "";
   display: block;
-  padding-top: 56%;
+  padding-top: 40%;
 }
 
 .posts:hover {
@@ -1193,7 +1193,7 @@ table tr:hover {
 }
 
 .post-body {
-  padding: 40px 30px;
+  padding: 30px;
 }
 
 .post-body h2 {

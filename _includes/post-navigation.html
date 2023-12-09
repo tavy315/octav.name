@@ -1,13 +1,13 @@
 <div class="page-navigation clearfix">
     {% if page.previous.url %}
-    <a class="prev-page" href="{{page.previous.url}}">
-        <i class="fa fa-angle-left" aria-hidden="true"></i><span>{{page.previous.title}}</span>
-    </a>
+        <a class="prev-page" href="{{page.previous.url}}">
+            <i class="fa fa-angle-left" aria-hidden="true"></i><span>{{page.previous.title}}</span>
+        </a>
     {% endif %}
 
     {% if page.next.url %}
-    <a class="next-page" href="{{page.next.url}}">
-        <span>{{page.next.title}}</span><i class="fa fa-angle-right" aria-hidden="true"></i>
-    </a>
+        <a class="next-page" href="{{page.next.url}}">
+            <span>{{page.next.title}}</span><i class="fa fa-angle-right" aria-hidden="true"></i>
+        </a>
     {% endif %}
 </div>
