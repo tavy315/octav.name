@@ -7,7 +7,7 @@ layout: post
 title: "LED TV Samsung UE40C5000"
 ---
 
-<img src="/wp-content/uploads/2011/04/UE40C5000.jpg" alt="" title="UE40C5000" width="500" height="350" style="float: right" />
+<img src="/wp-content/uploads/2011/04/UE40C5000.jpg" alt="" title="UE40C5000" width="500" height="350" class="align-right" />
 <!--more-->
 
 ### Caracteristici generale

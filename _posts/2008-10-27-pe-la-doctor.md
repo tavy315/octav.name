@@ -39,13 +39,9 @@ dureroase ale articulatiilor inflamate ~ de aia ma dureau genunchii 😔). Si ui
 - orez, gris, paste fainoase in cantitati moderate
 - unt in cantitate mica (5-10g), ulei vegetal sau margarina vegetala in cantitate moderata (20-30 g)
 - condimente aromate: patrunjel, marar, leustean, tarhon, dafin, cimbru, vanilie
-- deserturi (budinci preparate cu lapte smantanit, placinte simple, biscuiti preparati cu margarina vegetala sau
-  uleiuri)
-- lichide (apa minerala, sifon, ceai de plante, cafea, ness indulcit cu zaharina, suc natural de legume permise, bauturi
-  racoritoare)
-- fructe cu 5-10% glucide, mere cretesti, mere domnesti, pere, portocale, kiwi, mandarine, gutui, visine, capsuni,
-  cirese de mai, fragi, afine, coacaze, caise, piersici, pepene rosu/galben, grapefrut, lamaie
-- legume cu 5% glucide (fasole verde, praz, gulii, varza, conopida, dovlecel, spanac, rosii, castraveti, salata verde,
-  ardei, ridichi, vinete, andive, ciuperci, bame, sparanghel, urzici, stevie, loboda, untisor, papadie)
+- deserturi (budinci preparate cu lapte smantanit, placinte simple, biscuiti preparati cu margarina vegetala sau uleiuri)
+- lichide (apa minerala, sifon, ceai de plante, cafea, ness indulcit cu zaharina, suc natural de legume permise, bauturi racoritoare)
+- fructe cu 5-10% glucide, mere cretesti, mere domnesti, pere, portocale, kiwi, mandarine, gutui, visine, capsuni, cirese de mai, fragi, afine, coacaze, caise, piersici, pepene rosu/galben, grapefrut, lamaie
+- legume cu 5% glucide (fasole verde, praz, gulii, varza, conopida, dovlecel, spanac, rosii, castraveti, salata verde, ardei, ridichi, vinete, andive, ciuperci, bame, sparanghel, urzici, stevie, loboda, untisor, papadie)
 - legume cu 10% glucide (ceapa, morcov, telina, radacina patrunjel, sfecla rosie)
 - legume cu 20% glucide (cartofi, fasole uscata, mazare boabe, linte, soia)

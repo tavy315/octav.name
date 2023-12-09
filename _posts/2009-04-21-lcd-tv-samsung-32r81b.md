@@ -8,7 +8,7 @@ title: "LCD TV Samsung 32R81B"
 ---
 
 <img title="samsung_le32r81b" alt="samsung_le32r81b" width="500" height="500"
-    src="/wp-content/uploads/2009/04/samsung_le32r81b.jpg" style="float: right" />
+    src="/wp-content/uploads/2009/04/samsung_le32r81b.jpg" class="align-right" />
 <!--more-->
 
 ### Picture/Display

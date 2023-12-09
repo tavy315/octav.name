@@ -403,6 +403,10 @@ p {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.align-center {
+    text-align: center;
+}
+
 a {
   text-decoration: none;
   color: #1e6bb8;
@@ -415,6 +419,11 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+img.align-right {
+    margin-left: 10px;
+    float: right;
 }
 
 li {
@@ -781,7 +790,7 @@ table tr:hover {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 15px;
+  font-size: 18px;
   color: #ffffff;
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -1972,6 +1981,10 @@ table tr:hover {
     text-align: left;
   }
 
+    .site-logo a {
+        font-size: 24px;
+    }
+
   .navigation-wrap {
     width: 250px;
     height: 100vh;
@@ -2023,10 +2036,18 @@ table tr:hover {
 
   .nav-toggle {
     display: block;
+    font-size: 24px;
+    right: 55px;
   }
 
   .nav-toggle-close {
     display: none;
+    font-size: 24px;
+    right: 55px;
+  }
+
+  .search-toggle {
+    font-size: 24px;
   }
 
   .posts {
@@ -2083,11 +2104,11 @@ table tr:hover {
   }
 
   .post-header-info .post-title {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .post-header-info .post-meta {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .post-author {
@@ -2111,7 +2132,7 @@ table tr:hover {
   }
 
   .content-box {
-    margin: 50px auto;
+    /*margin: 50px auto;*/
   }
 
   .page {
@@ -2138,7 +2159,11 @@ table tr:hover {
   }
 
   .post-header {
-    min-height: 420px;
+    min-height: 160px;
+  }
+
+  img.align-right {
+      max-width: 50%;
   }
 
   .page-navigation .prev-page span,
