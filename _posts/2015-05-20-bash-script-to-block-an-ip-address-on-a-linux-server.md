@@ -23,4 +23,5 @@ You can also unblock an IP by suppling -r parameter:
 {% endhighlight %}
 
 Here’s the code for the script:
-<script src="https://gist.github.com/Tavy315/70c7ed6b1addb2b93ce6.js"></script>
+{% gist 70c7ed6b1addb2b93ce6 %}
+

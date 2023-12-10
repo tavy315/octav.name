@@ -1,6 +1,6 @@
 ---
 author: octav
-category: Tech
+category: Life
 date: 2008-10-27 20:25:00 +0200
 image:
 layout: post

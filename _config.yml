@@ -49,14 +49,15 @@ paginate_path: "/page/:num"
 
 placeholder: /assets/images/placeholder.png
 
-# Build settings
-#theme: minima
-#remote_theme: pages-themes/cayman
-#remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-paginate
+    - jekyll-feed
+    - jekyll-remote-theme
+    - jekyll-paginate
+    - jekyll-redirect-from
+    - jekyll-gist
+
+whitelist:
+    - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
