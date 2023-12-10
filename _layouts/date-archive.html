@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{%- if page.type == 'year' -%}
+    {%- assign dateFormat = '%Y' -%}
+{%- elsif page.type == 'month' -%}
+    {%- assign dateFormat = '%B %Y' -%}
+{%- endif -%}
+
+<div class="post-header">
+    <div class="post-header-info">
+        <h1 class="post-title">Posts from {{ page.date | date: dateFormat }}</h1>
+    </div>
+</div>
+
+<div class="content-wrap">
+    <div class="wrapper">
+        {% for post in page.posts %}
+            {% include home-post.html %}
+        {% endfor %}
+    </div> <!-- /.wrapper -->
+</div> <!-- /.content-wrap -->

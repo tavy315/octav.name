@@ -1,4 +1,5 @@
 ---
+in_navbar: true
 layout: page
 permalink: /despre
 title: Despre

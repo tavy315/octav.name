@@ -211,10 +211,14 @@ table tr:hover {
   flex: 1 0 auto;  
   width: 1440px;
   max-width: 100%;
-  margin: 80px auto 80px;
+  margin: 0 auto 20px;
   transition: all .35s ease;
-  @media screen and (max-width: 480px) {
-    margin: 50px auto 20px;
+}
+
+.wrapper-home {
+  margin-top: 80px;
+  @media screen and (max-width: 576px) {
+    margin-top: 30px;
   }
 }
 

@@ -1,0 +1,16 @@
+{% assign author = site.authors[post.author] %}
+{% if author %}
+<div class="author-box">
+    <div class="author-image-cover">
+        <div class="author-image-small"
+             style="background-image: url({{author.image}})">
+        </div>
+    </div>
+    <div class="author-info">
+        <span class="meta">
+            Date: <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%-d %B %Y"}}</time>
+        </span><br />
+        <span>Author: {{ author.name }}</span>
+    </div>
+</div>
+{% endif %}

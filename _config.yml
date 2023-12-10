@@ -44,6 +44,22 @@ authors:
 
 google-analytics: UA-917289-1
 
+jekyll-archives:
+    enabled:
+        - categories
+        - month
+        - year
+    layouts:
+        category: category-archive
+        month: date-archive
+        year: date-archive
+    permalinks:
+        category: '/category/:name/'
+        month: '/:year/:month/'
+        year: '/:year/'
+#        day: '/:year/:month/:day/'
+#        tag: '/tag/:name/'
+
 paginate: 9
 paginate_path: "/page/:num"
 
@@ -54,6 +70,7 @@ plugins:
     - jekyll-remote-theme
     - jekyll-paginate
     - jekyll-redirect-from
+    - jekyll-archives
     - jekyll-gist
 
 whitelist:

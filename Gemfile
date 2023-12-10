@@ -15,7 +15,9 @@ gem "minima", "~> 2.5"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'jekyll-archives', "~> 2.2.1"
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-paginate", "~> 1.1.0"
   gem 'jekyll-redirect-from', "~> 0.16.0"
   gem 'jekyll-gist', "~> 1.5.0"
 end

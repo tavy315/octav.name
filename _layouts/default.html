@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.description }}{% endif %}</title>
+    <title>
+        {%- if page.layout == 'date-archive' and page.type == 'year' -%}{{ page.date | date: "%Y" }} | {{ site.title }}
+        {%- elsif page.layout == 'date-archive' and page.type == 'month' -%}{{ page.date | date: "%B, %Y" }} | {{ site.title }}
+        {%- elsif page.title -%}{{ page.title }} | {{ site.title }}
+        {%- else -%}{{ site.title }} | {{ site.description }}
+        {%- endif -%}</title>
     <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#faf5ee">
@@ -17,9 +22,7 @@
     <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/normalize.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
     {% include google-analytics.html %}
