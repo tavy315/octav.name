@@ -58,6 +58,10 @@ p {
   color: rgba(0, 0, 0, .8);
 }
 
+.align-center {
+  text-align: center;
+}
+
 a {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.8);
@@ -67,6 +71,11 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+img.align-right {
+  margin-left: 10px;
+  float: right;
 }
 
 li {
@@ -91,7 +100,7 @@ blockquote {
 
 pre {
   overflow: auto;
-  padding: 25px;
+  padding: 20px;
   font-size: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -149,7 +158,6 @@ table th {
 }
 
 table tr {
-  background-color: #d4e3e5;
   transition: all .3s ease;
   &:nth-child(even) {
     background-color: #f7f7f7;
@@ -158,10 +166,7 @@ table tr {
 
 table td {
   font-size: 14px;
-  border-width: 1px;
   padding: 8px;
-  border-style: solid;
-  border-color: #729ea5;
 }
 
 table tr:hover {
@@ -270,10 +275,10 @@ table tr:hover {
 
 ::-moz-selection {
   background: $blue-highlighted;
-  color: #ffffff;
+  color: #fff;
 }
 
 ::selection {
   background: $blue-highlighted;
-  color: #ffffff;
+  color: #fff;
 }

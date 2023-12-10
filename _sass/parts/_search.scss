@@ -21,11 +21,12 @@
   top: 50%;
   right: 15px;
   transform: translateY(-50%);
-  font-size: 15px;
+  font-size: 18px;
   color: $white;
   transition: all 0.2s ease;
   cursor: pointer;
   z-index: 10;
+
   &:hover {
     color: rgba(255, 255, 255, 0.7);
   }
@@ -38,9 +39,10 @@
     background-color: $blue;
     border: none;
   }
+
   ::placeholder {
-      color: $white;
-      opacity: 1;
+    color: $white;
+    opacity: 1;
   }
 
   :-ms-input-placeholder {
@@ -77,6 +79,7 @@
   transition: all 0.3s ease-in-out;
   color: $white;
   cursor: pointer;
+
   &:hover {
     background-color: darken($blue, 15%);
   }
@@ -95,14 +98,17 @@
   list-style: none;
   overflow-y: auto;
   background-color: rgba(255, 255, 255, 0.97);
+
   li {
     margin-bottom: 20px;
+
     a {
       font-size: 18px;
       font-weight: 400;
       text-decoration: none;
       color: #2d2d2d;
       transition: all 0.2s ease;
+
       &:hover {
         text-decoration: underline;
       }
