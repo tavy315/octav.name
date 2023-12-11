@@ -72,6 +72,7 @@ plugins:
     - jekyll-redirect-from
     - jekyll-archives
     - jekyll-gist
+    - jekyll-seo-tag
 
 whitelist:
     - jekyll-redirect-from

@@ -4,28 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-        {%- if page.layout == 'date-archive' and page.type == 'year' -%}{{ page.date | date: "%Y" }} | {{ site.title }}
-        {%- elsif page.layout == 'date-archive' and page.type == 'month' -%}{{ page.date | date: "%B, %Y" }} | {{ site.title }}
-        {%- elsif page.title -%}{{ page.title }} | {{ site.title }}
-        {%- else -%}{{ site.title }} | {{ site.description }}
-        {%- endif -%}</title>
-    <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#faf5ee">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#faf5ee">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#faf5ee">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700%7CLato:400,700%7CRoboto:300,400|Delius+Unicase:400&display=swap" rel="stylesheet">
+    {% seo %}
+    <meta name="theme-color" content="#faf5ee"><!-- Chrome, Firefox OS and Opera -->
+    <meta name="msapplication-navbutton-color" content="#faf5ee"><!-- Windows Phone -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#faf5ee"><!-- iOS Safari -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700%7CLato:400,700%7CRoboto:300,400|Delius+Unicase:400&display=swap" rel="stylesheet"><!-- Google Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/normalize.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-
-    {% include google-analytics.html %}
+    {%- include google-analytics.html -%}
 </head>
 {% if page.url == '/' %}
     {% assign class = 'body-post' %}
