@@ -7,10 +7,11 @@
         </div>
     </div>
     <div class="author-info">
+        <span>Author: {{ author.name }}</span><br />
+        <span>Category: {{ post.category }}</span><br />
         <span class="meta">
             Date: <time datetime="{{ post.date | date_to_xmlschema }}">{{post.date | date: "%-d %B %Y"}}</time>
-        </span><br />
-        <span>Author: {{ author.name }}</span>
+        </span>
     </div>
 </div>
 {% endif %}

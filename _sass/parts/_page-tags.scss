@@ -13,22 +13,18 @@
         padding: 5px 7px;
         font-size: 14px;
         color: $white;
-        background-color: $lightblue;
+        background-color: $greenish;
         transition: all .25s ease;
 
         &:hover {
-          background-color: #a3acb5;
+          background-color: #1e6bb8;
         }
       }
     }
   }
 
-  h2 {
-    font-size: 16px;
-    font-weight: 400;
+  h3 {
     letter-spacing: 1px;
-    text-transform: uppercase;
-    margin: 32px 0;
   }
 }
 
@@ -37,16 +33,7 @@
 
   span {
     a {
-      font-size: 16px;
-      color: $lightblue;
       transition: all .25s ease;
-    }
-
-    &:hover {
-      a {
-        color: #7c858e;
-        text-decoration: underline;
-      }
     }
   }
 }
