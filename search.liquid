@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /search.json
+---
+[{%- for post in site.posts -%}{"category":"{{- post.category -}}","date":"{{- post.date -}}","tags":"{{- post.tags | join: ',' -}}","title":"{{- post.title | escape -}}","url":"{{- post.url | relative_url -}}"}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]
