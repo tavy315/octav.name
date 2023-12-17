@@ -87,10 +87,10 @@ whitelist:
 #
 
 exclude:
-    - .git
-    - .idea
-    - _css
-    - _js
+    - .git/
+    - .idea/
+    - _css/
+    - _js/
     - Gemfile
     - Gemfile.lock
 #   - .sass-cache/
