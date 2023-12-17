@@ -3,9 +3,11 @@
         <div class="navigation-wrap">
             <div class="nav-toggle-close"><i class="fa fa-times" aria-hidden="true"></i></div>
             <nav class="site-nav">
-{%- for page in site.pages -%}
-    {% if page.title and page.in_navbar %}<a href="{{ page.url | relative_url }}">{{ page.title }}</a>{% endif %}
-{%- endfor -%}
+                {%- for page in site.pages -%}
+                    {%- if page.title and page.in_navbar -%}
+                        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+                    {%- endif -%}
+                {%- endfor -%}
             </nav>
         </div>
 

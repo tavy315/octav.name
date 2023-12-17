@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <meta name="theme-color" content="#faf5ee"><!-- Chrome, Firefox OS and Opera -->
+    <meta name="msapplication-navbutton-color" content="#faf5ee"><!-- Windows Phone -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#faf5ee"><!-- iOS Safari -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700%7CLato:400,700%7CRoboto:300,400|Delius+Unicase:400&display=swap" rel="stylesheet"><!-- Google Fonts -->
+    <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/normalize.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
+
+    {%- include google-analytics.html.liquid -%}
+</head>
+{% if page.url == '/' %}
+    {% assign class = 'body-post' %}
+{% else %}
+    {% assign class = '' %}
+{% endif %}
+<body class="{{ class }}">
+<div class="full-page-container">
+    <div class="overlay"></div>
+    {% include navbar.html.liquid %}
+
+    {% include search.html.liquid %}
+
+    {{ content }}
+
+    <div class="top" title="Scroll To Top">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div>
+
+    {% include footer.html.liquid %}
+</div>
+
+<script src="{{ '/assets/js/jquery-3.2.1.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/jquery.viewportchecker.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/jquery.fitvids.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/transition.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/zoom.min.js' | absolute_url }}"></script>
+<script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
+</body>
+</html>

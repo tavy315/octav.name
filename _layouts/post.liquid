@@ -16,15 +16,15 @@ layout: default
         <div class="post-content">{{ content }}</div>
 
         <footer class="post-footer">
-            {% include post-socials.html %}
+            {% include post-socials.html.liquid %}
 
-            {% include post-tags.html %}
+            {% include post-tags.html.liquid %}
         </footer>
 
-        {% include post-author.html %}
+        {% include post-author.html.liquid %}
 
-        {% include post-navigation.html %}
+        {% include post-navigation.html.liquid %}
 
-        {% include post-comments.html %}
+        {% include post-comments.html.liquid %}
     </article> <!-- /.post -->
 </div> <!-- /.content-box -->
