@@ -49,16 +49,18 @@ jekyll-archives:
         - categories
         - month
         - year
+        - tags
     layouts:
         category: category-archive
         month: date-archive
         year: date-archive
+        tag: tag-archive
     permalinks:
         category: '/category/:name/'
         month: '/:year/:month/'
         year: '/:year/'
 #        day: '/:year/:month/:day/'
-#        tag: '/tag/:name/'
+        tag: '/tag/:name/'
 
 paginate: 9
 paginate_path: "/page/:num"
