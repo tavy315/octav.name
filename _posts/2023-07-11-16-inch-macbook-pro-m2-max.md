@@ -2,10 +2,10 @@
 author: octav
 category: Tech
 date: 2023-07-11 12:00:00 +0200
-description: All ports of Intel NUC8i7HVK...
+description: "I made a significant addition to my setup: a 16-inch MacBook Pro with the M2 Max chip (12-core CPU, 38-core GPU), 64GB of Unified Memory and a 1TB SSD."
 image: /wp-content/uploads/2023/07/macbook-pro-2023-16in-m2-max.png
 layout: post
-title: "Upgrading to the MacBook Pro 16-inch M2 Max: Solving the Docker Struggle"
+title: "MacBook Pro 16-inch M2 Max: Solving the Docker Struggle"
 tags: [Apple, MacBook, Docker, Productivity]
 ---
 
