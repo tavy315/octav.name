@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-adsense-account" content="ca-pub-2007314657627363">
     {% seo %}
     <meta name="theme-color" content="#faf5ee">
     <meta name="msapplication-navbutton-color" content="#faf5ee">
@@ -19,6 +20,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
 
     {%- include google-analytics.html.liquid -%}
+    {%- include google-adsense.html.liquid -%}
 </head>
 {% if page.url == '/' %}
     {% assign class = 'body-post' %}
