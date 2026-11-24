@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solar System · Live Orrery</title>
+<meta name="description" content="An interactive 3D solar system: eight planets, Saturn's rings, Earth's moon and a starfield, rendered live in the browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Geist:wght@400;500&family=Geist+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./app.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<canvas id="scene" aria-label="Interactive 3D solar system. Drag to orbit the camera, scroll to zoom, click a planet to inspect it." tabindex="0"></canvas>
+
+<header class="topbar">
+  <h1 class="wordmark">solar system</h1>
+  <p class="status" role="status">
+    <span class="status-item"><span class="status-key">state</span> <span id="stateValue" class="num">building</span></span>
+    <span class="status-item"><span class="status-key">fps</span> <span id="fpsValue" class="num">--</span></span>
+    <span class="status-item"><span class="status-key">sim days</span> <span id="daysValue" class="num">0</span></span>
+  </p>
+</header>
+
+<aside class="panel" aria-label="Simulation settings">
+  <h2 class="panel-title">controls</h2>
+
+  <div class="field">
+    <button type="button" id="pauseBtn" class="btn btn--primary" aria-pressed="false">pause</button>
+  </div>
+
+  <div class="field">
+    <label class="field-label" for="speed">speed <output id="speedValue" class="readout num" for="speed">1.0×</output></label>
+    <input type="range" id="speed" min="0" max="10" step="0.1" value="1">
+    <p class="field-hint">0 freezes drift, 10 runs sixty days a second</p>
+  </div>
+
+  <div class="field field--row">
+    <label class="field-label" for="orbits">orbit paths</label>
+    <span class="switch-wrap">
+      <input type="checkbox" id="orbits" checked>
+      <span class="switch" aria-hidden="true"></span>
+    </span>
+  </div>
+
+  <p class="panel-note">drag to orbit, scroll to zoom, click a body to inspect</p>
+</aside>
+
+<section class="readout-card" id="readout" aria-live="polite" hidden>
+  <h2 class="readout-name" id="readoutName">earth</h2>
+  <dl class="readout-list">
+    <div class="readout-row"><dt>diameter</dt><dd class="num" id="rDiameter"></dd></div>
+    <div class="readout-row"><dt>orbit</dt><dd class="num" id="rOrbit"></dd></div>
+    <div class="readout-row"><dt>day</dt><dd class="num" id="rDay"></dd></div>
+    <div class="readout-row"><dt>moons</dt><dd class="num" id="rMoons"></dd></div>
+  </dl>
+  <p class="readout-note" id="rNote"></p>
+</section>
+
+<noscript><p class="noscript">This orrery needs JavaScript to render. Everything it draws is generated in the browser, no image files.</p></noscript>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
