@@ -31,8 +31,11 @@
 </header>
 
 <aside class="panel" aria-label="Simulation settings">
-  <h2 class="panel-title">controls</h2>
-
+  <div class="panel-head">
+    <h2 class="panel-title">controls</h2>
+    <button type="button" id="panelToggle" class="panel-toggle" aria-expanded="true" aria-controls="panelBody">hide</button>
+  </div>
+  <div id="panelBody">
   <div class="field">
     <button type="button" id="pauseBtn" class="btn btn--primary" aria-pressed="false">pause</button>
   </div>
@@ -52,6 +55,7 @@
   </div>
 
   <p class="panel-note">drag to orbit, scroll to zoom, click a body to inspect</p>
+  </div>
 </aside>
 
 <section class="readout-card" id="readout" aria-live="polite" hidden>

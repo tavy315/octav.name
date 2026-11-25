@@ -100,6 +100,12 @@ h1, h2 { font-weight: 400; }
   border-radius: var(--radius-card);
   color: var(--color-ink);
 }
+.panel-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-xs);
+}
 .panel-title {
   margin: 0 0 var(--space-sm);
   font-family: var(--font-body);
@@ -108,6 +114,20 @@ h1, h2 { font-weight: 400; }
   letter-spacing: 0;
   color: var(--color-ink);
 }
+.panel-toggle {
+  padding: var(--space-2xs) var(--space-sm);
+  background: none;
+  border: 0;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-out);
+}
+.panel-toggle:hover { background: color-mix(in oklab, var(--color-accent) 16%, transparent); }
+.panel--collapsed #panelBody { display: none; }
+.panel--collapsed .panel-title { margin-bottom: 0; }
 .field { margin-block: var(--space-md); }
 .field:first-of-type { margin-top: 0; }
 .field-label {

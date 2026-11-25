@@ -359,6 +359,16 @@ dom.speed.addEventListener('input', () => {
 dom.orbits.addEventListener('change', () => {
   orbitLines.visible = dom.orbits.checked;
 });
+
+const panel = document.querySelector('.panel');
+const panelToggle = document.getElementById('panelToggle');
+function setPanel(open) {
+  panel.classList.toggle('panel--collapsed', !open);
+  panelToggle.setAttribute('aria-expanded', String(open));
+  panelToggle.textContent = open ? 'hide' : 'show';
+}
+panelToggle.addEventListener('click', () => setPanel(panel.classList.contains('panel--collapsed')));
+if (window.matchMedia('(max-width: 60rem)').matches) setPanel(false);
 window.addEventListener('keydown', (e) => {
   if (e.code === 'Space' && (e.target === document.body || e.target === dom.canvas)) {
     e.preventDefault();
